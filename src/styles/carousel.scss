@@ -1,0 +1,57 @@
+.carousel-container {
+  position: relative;
+}
+
+.carousel-container .carousel {
+  position: relative;
+}
+
+.carousel-container .carousel .carousel-slide img {
+  width: 100%;
+  display: block;
+}
+
+/* Arrows */
+.carousel-container .carousel .carousel__prev,
+.carousel-container .carousel .carousel__next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.carousel-container .carousel .carousel__prev {
+  left: 10px;
+}
+
+.carousel-container .carousel .carousel__next {
+  right: 10px;
+}
+
+/* Dots */
+.carousel-container .carousel .carousel__pagination {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+
+.carousel-container .carousel .carousel__pagination-item {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.carousel-container .carousel .carousel__pagination-item--active {
+  background-color: white;
+}

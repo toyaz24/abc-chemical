@@ -1,0 +1,14 @@
+@import 'variables';
+@import 'mixins';
+
+
+
+@import './header';
+@import './navbar';
+@import './carousel';
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: $primary-color;
+}

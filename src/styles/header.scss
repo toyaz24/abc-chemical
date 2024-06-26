@@ -1,0 +1,70 @@
+.header-section{
+    .social-media-icon {
+        font-size: 18px;
+        line-height: 49px;
+        border-left: 1px solid #073D51;
+        padding: 0 15px;
+        color: #fff;
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease;
+        
+      
+        &:hover {
+          color: #3498db;
+        }
+      
+        &.facebook {
+          &:hover {
+            background: #FE5454;
+            color: #fff;
+          }
+        }
+      
+        &.twitter {
+          &:hover {
+            background: #FE5454;
+            color: #fff;
+          }
+        }
+      
+        &.instagram {
+            border-right: 1px solid #073D51;
+    
+          &:hover {
+            background: #FE5454;
+            color: #fff;
+          }
+        }
+      }
+      .contact-info{
+        display: inline-block;
+        font-size: 14px;
+        line-height: 48px;
+        padding: 0 26px;
+        border-left: 1px solid #073D51;
+        color: #fff;
+        font-family: 'Open Sans';
+        font-weight: 500;
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease;
+        cursor: pointer;
+      
+      &.phone {
+        &:hover {
+            background: #12AEF8;
+            color: #fff;
+        
+        }
+      }
+      &.email {
+        &:hover {
+            background: #12AEF8;
+         color: #fff;
+}
+        
+      }
+    }
+}
+
+
+  
